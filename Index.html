@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Trần Lê Anh Thư</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2d3436;
+            --accent-color: #0984e3;
+            --bg-color: #f5f6fa;
+            --text-color: #2d3436;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        h1 {
+            margin: 0;
+            color: var(--primary-color);
+            letter-spacing: -1px;
+        }
+
+        .subtitle {
+            color: var(--accent-color);
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.9em;
+        }
+
+        section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            border-left: 5px solid var(--accent-color);
+        }
+
+        h2 {
+            margin-top: 0;
+            font-size: 1.4em;
+            color: var(--accent-color);
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .contact-info p {
+            margin: 8px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.8em;
+            color: #636e72;
+        }
+
+        @media (max-width: 600px) {
+            .skills-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <p class="subtitle">Graphic Designer Aspiring</p>
+        <h1>TRẦN LÊ ANH THƯ</h1>
+        <p>Lớp 12C1 | THPT Nguyễn Du, Bắc Ninh Hòa</p>
+    </header>
+
+    <section id="about">
+        <h2>1. Giới thiệu bản thân</h2>
+        <p>Tôi là một người trẻ đam mê nghệ thuật thị giác, luôn tìm kiếm cách biến những ý tưởng trừu tượng thành sản phẩm đồ họa trực quan. Tôi hướng tới việc truyền tải thông điệp tích cực qua ngôn ngữ thiết kế.</p>
+    </section>
+
+    <section id="skills">
+        <h2>2. Tóm tắt năng lực</h2>
+        <div class="skills-grid">
+            <div>
+                <strong>Kỹ năng chuyên môn:</strong>
+                <ul>
+                    <li>Canva (Video, Infographic)</li>
+                    <li>Quản lý mã nguồn GitHub</li>
+                    <li>Tư duy thẩm mỹ & Bố cục</li>
+                </ul>
+            </div>
+            <div>
+                <strong>Kỹ năng mềm:</strong>
+                <ul>
+                    <li>Nghiên cứu & Tổng hợp</li>
+                    <li>Làm việc nhóm</li>
+                    <li>Thích nghi nhanh</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>3. Dự án & Ước mơ</h2>
+        <p><strong>Dự án "Sống Xanh":</strong> Nghiên cứu giải pháp bảo vệ môi trường và nguyên tắc 5R.</p>
+        <p><strong>Ước mơ:</strong> Trở thành một họa sĩ/thiết kế chuyên nghiệp, kết hợp yếu tố thiên nhiên vào các tác phẩm sáng tạo.</p>
+    </section>
+
+    <section id="contact">
+        <h2>4. Liên hệ</h2>
+        <div class="contact-info">
+            <p>📍 Lạc Ninh, Bắc Ninh Hòa, Khánh Hòa</p>
+            <p>📧 anhthu2456@gmail.com</p>
+            <p>📞 0587376285</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2026 Designed by Anh Thư
+    </footer>
+</div>
+
+</body>
+</html>
